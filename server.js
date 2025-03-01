@@ -36,7 +36,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use("/uploads",express.static('uploads'))
 // app.use(bodyParser.urlencoded({extended: true}))
 
-const BASE_URL = 'http://brtmultisoft.com';
+const BASE_URL = 'https://play24.club';
 
 var dt = dateTime.create();
 var current_datetime = dt.format('Y-m-d H:M:S');

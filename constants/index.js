@@ -3,7 +3,7 @@ const game = require('./game');
 const roulette = require('./roulette');
 const colorPrediction = require('./coloPrediction');
 const rummy = require('./rummy');
-const BASE_URL = process.env.BASE_URL || 'https://socket.brtmultisoftware.com/';
+const BASE_URL = process.env.BASE_URL || 'https://socket.play24.club';
 
 module.exports = {
     ...responseCode,
